@@ -1,0 +1,17 @@
+<div class="content-wrapper">
+  <div class="container-fluid">
+    <div class="card mb-3">
+      <div class="card-header">
+        <i class="fas fa-bell"></i> Notifications
+      </div>
+      <div class="card-body">
+        <div class="list-group list-group-flush small">
+          <app-notification *ngFor="let notification of notificationsVisible" iconType="{{notification.icon}}"
+                            message="{{notification.message}}" routerLink="/notification/{{notification.id}}">
+          </app-notification>
+          <a class="list-group-item list-group-item-action" (click)="showMore()" *ngIf="numberOfNotificationsVisible < this.notifications.length">Load more...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rxjs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/rxjs.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

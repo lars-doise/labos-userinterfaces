@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="weerweb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vb/weerweb.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

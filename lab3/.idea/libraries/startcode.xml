@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="startcode">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/rxjs_opnieuw/startcode.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

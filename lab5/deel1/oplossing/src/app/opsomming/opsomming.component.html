@@ -1,0 +1,5 @@
+<h2>Kies uw tekst</h2>
+<ul>
+  <!-- toon de titel, maar link met id -->
+  <li *ngFor="let item of nieuwsitems"><a routerLink="/details/{{item.id}}">{{item.titel}}</a></li>
+</ul>

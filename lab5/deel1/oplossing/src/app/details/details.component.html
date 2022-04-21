@@ -1,0 +1,6 @@
+  <h3 *ngIf="nieuwsItem !== undefined;else geenItemGevonden">{{nieuwsItem.titel}}</h3>
+  <p *ngIf="nieuwsItem !== undefined">{{nieuwsItem.inhoud}}</p>
+
+  <ng-template #geenItemGevonden><p>Geen info gevonden...</p></ng-template>
+  <button class="btn btn-secondary" (click)="goBack()">Back</button>
+

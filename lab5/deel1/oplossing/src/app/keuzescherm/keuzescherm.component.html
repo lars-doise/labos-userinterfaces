@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-sm-4">
+    <app-subcategorieen onderwerpId="{{this.onderwerpId}}" (subCategorieGekozen)="veranderSubCategorie($event)"></app-subcategorieen>
+  </div>
+  <div class="col-sm-8">
+    <app-opsomming subCategorie="{{this.subCategorie}}"></app-opsomming>
+  </div>
+</div>
+<p class="apart">
+<button class="btn btn-secondary" (click)="goBack()">Back</button>
+</p>

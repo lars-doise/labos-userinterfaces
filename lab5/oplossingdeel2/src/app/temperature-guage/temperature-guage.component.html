@@ -1,0 +1,26 @@
+<div class='temp'>
+  <p class="title">
+    "{{title}}"
+  </p>
+
+  <div class='inner'>
+    <div class='icon'></div>
+    <div class="cell">
+      <div class='title'>
+        <div class='text'>Current</div>
+      </div>
+      <div class="number">
+        "{{temp}}"
+      </div>
+    </div>
+
+    <div class="cell">
+      <div class='title'>
+        <div class='text'>Target</div>
+      </div>
+      <div class="number">
+        <input [(ngModel)]="temp" type="number"/>
+      </div>
+    </div>
+  </div>
+</div>
