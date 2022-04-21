@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="boy_start1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gekregen/boy_start.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

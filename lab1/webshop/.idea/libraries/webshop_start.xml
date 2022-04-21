@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webshop_start">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webshop_start.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
