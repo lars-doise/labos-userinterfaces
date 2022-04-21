@@ -1,0 +1,11 @@
+#myCanvas{
+    outline: black 3px solid;
+    background-color: lightgreen;
+    background-image: images/;
+}
+#snakeImg{
+    position: relative;
+    left: 600px;
+    z-index: -1;
+
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lab5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/05_smarthome_opl.zip!/" />
+      <root url="jar://$PROJECT_DIR$/startbestanden_smarthome.zip!/" />
+      <root url="jar://$PROJECT_DIR$/05_news_opl.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
