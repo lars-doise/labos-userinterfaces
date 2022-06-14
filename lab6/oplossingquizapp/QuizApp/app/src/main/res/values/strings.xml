@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="ok_button">OK</string>
+    <string name="hint_button">Hint</string>
+    <string name="text_hint">Text hint</string>
+    <string name="image_hint">Image hint</string>
+    <string name="hint_image">hint image</string>
+    <string name="text_hint_shown">text hint shown</string>
+    <string name="image_hint_shown">image hint shown</string>
+    <string name="no_hints_shown">no hints shown</string>
+</resources>

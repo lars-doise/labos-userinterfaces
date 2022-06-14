@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KwisApp</string>
+    <string name="ok_button">Oké</string>
+    <string name="hint_button">Tip</string>
+    <string name="text_hint">Tekst hint</string>
+    <string name="image_hint">Afbeelding hint</string>
+    <string name="hint_image">hint afbeelding</string>
+    <string name="text_hint_shown">tekst hint getoond</string>
+    <string name="image_hint_shown">afbeelding hint getoond</string>
+    <string name="no_hints_shown">geen hints getoond</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewModel</string>
+    <string name="quote_left">“</string>
+    <string name="quote_right">”</string>
+</resources>

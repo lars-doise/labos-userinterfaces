@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable
+            name="quizMaster"
+            type="com.example.quizapp.model.QuizMaster" />
+
+        <variable
+            name="handler"
+            type="com.example.quizapp.MainActivity" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@{quizMaster.currentQuestion.question}"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@={quizMaster.userAnswer}" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="0"
+                android:text="@string/ok_button"
+                android:onClick="@{() -> handler.onClickOk()}"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="0"
+                android:text="@string/hint_button"
+                android:onClick="@{handler::onClickHint}"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
